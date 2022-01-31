@@ -1,4 +1,11 @@
-# Released under MIT License
+
+# Content
+
+All content copyright Zhulien Zhelezchev. All rights reserved. 
+
+
+
+# The webpage is based on the MIT licensed template [lanyon](https://github.com/poole/lanyon). Original license:
 
 Copyright (c) 2014 Mark Otto.
 
