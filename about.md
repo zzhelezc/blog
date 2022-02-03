@@ -3,6 +3,5 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Nothing to see here yet!
-</p>
+> And I knew exactly what to do. But in a much more real sense, I had no idea what to do.
+> -- <cite> Michael Scott </cite>
