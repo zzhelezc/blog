@@ -1,11 +1,14 @@
 
-# Content
+# All content
 
-All content copyright Zhulien Zhelezchev. All rights reserved. 
+Copyright (c) 2022 Zhulien Zhelezchev. All rights reserved. 
 
 
+# Website template
 
-# The webpage is based on the MIT licensed template [lanyon](https://github.com/poole/lanyon). Original license:
+The webpage is based on the MIT licensed template [lanyon](https://github.com/poole/lanyon). 
+
+Original license:
 
 Copyright (c) 2014 Mark Otto.
 
