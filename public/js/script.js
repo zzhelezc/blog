@@ -1,15 +1,32 @@
-(function(document) {
-  var toggle = document.querySelector('.sidebar-toggle');
-  var sidebar = document.querySelector('#sidebar');
-  var checkbox = document.querySelector('#sidebar-checkbox');
+var id = 'gallery';
 
-  document.addEventListener('click', function(e) {
-    var target = e.target;
+function reqListener() {
+  var renderer
+  switch (layoutStyle) {
+    case COLUMNS:
+      renderer = new VerticalRenderer(id);
+      break;
+    case ROWS:
+      renderer = new HorizontalRenderer(id);
+      break;
+    case SQUARES:
+      renderer = new SquareRenderer(id);
+      break;
+  }
+  var config = new Config(JSON.parse(this.responseText), configuration);
+  renderer.render(config);
+  lazyload();
+}
 
-    if(!checkbox.checked ||
-       sidebar.contains(target) ||
-       (target === checkbox || target === toggle)) return;
 
-    checkbox.checked = false;
-  }, false);
-})(document);
+window.onload = function() {
+  var oReq = new XMLHttpRequest();
+  oReq.addEventListener("load", reqListener);
+  oReq.open("GET", "config.json");
+  oReq.send();
+
+  let igElem = document.getElementById('instagram');
+  if (igElem.href === 'https://www.instagram.com/') {
+    document.querySelector('div.footer').remove();
+  }
+};

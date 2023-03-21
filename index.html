@@ -1,51 +1,53 @@
 ---
-layout: default
+layout: new
 title: Home
 ---
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+ 
+  <head>
+    <title>{{ site.title }}</title>
+    {% include favicon.html %}
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" href="{{ '/public/css/zoom.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/public/css/style.css' | absolute_url }}">
+  </head>
+<body>
+  <div id="container">
+      <!--------------- YOUR NAME OVER HERE -------------->
+      
+      <div id="gallery">
+      </div>
   </div>
-  {% endfor %}
-</div>
+    <div class="footer">
+      <div class="links">
+        <a id="instagram" class="links__icon" href="https://www.instagram.com/{{ site.instagram }}">
+          <span class="view-ig"> View {{ site.full_name }}'s Instagram </span>
+          <i class="fa fa-instagram fa-lg"></i>
+        </a>
+      </div>
+    </div>
+  </body>
 
-<!-- <div class="pagination"> -->
-<!--   {% if paginator.next_page %} -->
-<!--     <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a> -->
-<!--   {% else %} -->
-<!--     <span class="pagination-item older">Older</span> -->
-<!--   {% endif %} -->
-<!--   {% if paginator.previous_page %} -->
-<!--     {% if paginator.page == 2 %} -->
-<!--       <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a> -->
-<!--     {% else %} -->
-<!--       <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a> -->
-<!--     {% endif %} -->
-<!--   {% else %} -->
-<!--     <span class="pagination-item newer">Newer</span> -->
-<!--   {% endif %} -->
-  <!-- </div> -->
+  <script src="/public/js/jquery.js"></script>
+  <script src="/public/js/lazyload.js"></script>
+  <script src="/public/js/transition.js"></script>
+  <script src="/public/js/zoom.min.js"></script>
+  <script src="/public/js/gallery.js"></script>
+  <script>
+    var COLUMNS = 'columns';
+    var ROWS = 'rows';
+    var SQUARES = 'squares';
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">&#10216; Previous</a>
-  {% else %}
-    <span class="pagination-item older">&#10216; Previous</span>
-    {% endif %}
-  <span class="pagination-item-middle">&#124;</span>
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Next &#10217;</a>
-  {% else %}
-    <span class="pagination-item newer">Next &#10217;</span>
-  {% endif %}
-</div>
+    var columns = COLUMNS;
+    var rows = ROWS;
+    var squares = SQUARES;
+
+    var layoutStyle = {{ site.layout_style }};
+
+    var configuration = {
+      spacing: {{ site.spacing }},
+      shuffle: {{ site.shuffle }},
+      columns: {{ site.columns }},
+      maxHeight: {{ site.max_height }}
+    };
+  </script>
+  <script src="/public/js/script.js"></script>
