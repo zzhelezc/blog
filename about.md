@@ -11,4 +11,5 @@ title: About
 
 
 ## Contact Details
-`contact@wandering-nonsense.com`
+- email: `contact@wandering-nonsense.com`
+- instagram: [wandering_nonsense](https://www.instagram.com/wandering_nonsense/)
