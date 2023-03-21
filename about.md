@@ -3,6 +3,12 @@ layout: page
 title: About
 ---
 
+
+
 > And I knew exactly what to do. But in a much more real sense, I had no idea what to do.
 > 
 > -- <cite> Michael Scott </cite>
+
+
+## Contact Details
+`contact@wandering-nonsense.com`
