@@ -59,7 +59,7 @@
     {
       "width": 1530,
       "height": 1020,
-      "path": "./photos/People/2.jpg",
+      "path": "/gallery/photos/People/2.jpg",
       "compressed_path": "./photos/People/2.min.jpg",
       "compressed": false,
       "placeholder_path": "./photos/People/2.placeholder.jpg"
@@ -67,7 +67,7 @@
     {
       "width": 680,
       "height": 1020,
-      "path": "./photos/People/1.jpg",
+      "path": "/gallery/photos/People/1.jpg",
       "compressed_path": "./photos/People/1.min.jpg",
       "compressed": false,
       "placeholder_path": "./photos/People/1.placeholder.jpg"
@@ -75,7 +75,7 @@
     {
       "width": 680,
       "height": 1020,
-      "path": "./photos/People/0.jpg",
+      "path": "/gallery/photos/People/0.jpg",
       "compressed_path": "./photos/People/0.min.jpg",
       "compressed": false,
       "placeholder_path": "./photos/People/0.placeholder.jpg"

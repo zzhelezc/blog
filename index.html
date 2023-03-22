@@ -1,53 +1,35 @@
 ---
-layout: new
+layout: default
 title: Home
 ---
  
+<!DOCTYPE html>
+<html>
   <head>
-    <title>{{ site.title }}</title>
-    {% include favicon.html %}
-    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-    <link rel="stylesheet" href="{{ '/public/css/zoom.css' | absolute_url }}">
-    <link rel="stylesheet" href="{{ '/public/css/style.css' | absolute_url }}">
-  </head>
-<body>
-  <div id="container">
-      <!--------------- YOUR NAME OVER HERE -------------->
-      
-      <div id="gallery">
-      </div>
-  </div>
-    <div class="footer">
-      <div class="links">
-        <a id="instagram" class="links__icon" href="https://www.instagram.com/{{ site.instagram }}">
-          <span class="view-ig"> View {{ site.full_name }}'s Instagram </span>
-          <i class="fa fa-instagram fa-lg"></i>
-        </a>
-      </div>
-    </div>
-  </body>
+    	<link rel="stylesheet" href="/public/css/font.css" />
+		<meta charset='utf-8'/>
+		<title>Colorbox Examples</title>
+		<link rel="stylesheet" href="/public/colorbox-master/example2/colorbox.css" />
+                <script src="/public/js/jquery.js"></script>
+		<script src="/public/colorbox-master/jquery.colorbox.js"></script>
+		<script>
+		  $(document).ready(function(){
+                      $(".group2").colorbox({rel:'group2', transition:"fade", maxHeight: "95%", bottom: true, retinaImage: false});
+                  });
+		</script>
+	</head>
+	<body>
 
-  <script src="/public/js/jquery.js"></script>
-  <script src="/public/js/lazyload.js"></script>
-  <script src="/public/js/transition.js"></script>
-  <script src="/public/js/zoom.min.js"></script>
-  <script src="/public/js/gallery.js"></script>
-  <script>
-    var COLUMNS = 'columns';
-    var ROWS = 'rows';
-    var SQUARES = 'squares';
+		
+		<h2>Fade Transition</h2>
+		<a class="group2 sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="/gallery/photos/People/0.jpg" title="Bristol, UK, 2023">Album 1</a>
+                <div class="group2" href="/gallery/photos/People/1.jpg" title="Bristol, UK, 2023"></div>
+		<div class="group2" href="/gallery/photos/People/2.jpg" title="Bristol, UK, 2023"></div>
+		
 
-    var columns = COLUMNS;
-    var rows = ROWS;
-    var squares = SQUARES;
 
-    var layoutStyle = {{ site.layout_style }};
 
-    var configuration = {
-      spacing: {{ site.spacing }},
-      shuffle: {{ site.shuffle }},
-      columns: {{ site.columns }},
-      maxHeight: {{ site.max_height }}
-    };
-  </script>
-  <script src="/public/js/script.js"></script>
+	</body>
+</html>  
+
+

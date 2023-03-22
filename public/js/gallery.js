@@ -49,32 +49,36 @@ class Renderer {
     return sectionElem;
   }
 
-  createImageElement(photo, width, height, spacing) {
-    var image = new Image();
+    createImageElement(photo, width, height, spacing, section) {
+        var image = new Image();
 
-    image.style.width = width;
-    image.style.height = height;
-    image.style.marginBottom = spacing;
-    image.onload = onImageLoad;
-    image.setAttribute("data-action", "zoom");
-
-    if (photo.isCompressed()) {
-      // Lazy loading + a compressed image
-      image.setAttribute("data-original", photo.originalSrc());
-      image.setAttribute("data-src", photo.compresedSrc());
-      image.src = photo.placeholderSrc();
-      image.classList.add('lazyload');
-    } else {
-        // Original
-        image.setAttribute("data-original", photo.originalSrc());
-        image.setAttribute("data-src", photo.originalSrc());
-        //image.src = photo.src();
-        image.src = photo.placeholderSrc();
-        image.classList.add('lazyload');
+        image.style.width = width;
+        image.style.height = height;
+        image.style.marginBottom = spacing;
+        image.onload = onImageLoad;
+        //image.setAttribute("data-action", "zoom");
+        var a = document.createElement('a');
+        a.setAttribute("class", "People");
+        a.setAttribute("href", photo.originalSrc());
+        
+        
+        if (photo.isCompressed()) {
+            // Lazy loading + a compressed image
+            image.setAttribute("data-original", photo.originalSrc());
+            image.setAttribute("data-src", photo.compresedSrc());
+            image.src = photo.placeholderSrc();
+            image.classList.add('lazyload');
+        } else {
+            // Original
+            image.setAttribute("data-original", photo.originalSrc());
+            image.setAttribute("data-src", photo.originalSrc());
+            //image.src = photo.src();
+            image.src = photo.placeholderSrc();
+            image.classList.add('lazyload');
+        }
+        a.appendChild(image)
+        return a;
     }
-
-    return image;
-  }
 }
 
 /**
@@ -135,12 +139,12 @@ class VerticalRenderer extends Renderer {
   /**
    * Creates one photo
    */
-  createPhotoElement(photo, width, config) {
-    return this.createImageElement(photo,
+    createPhotoElement(photo, width, config, section) {
+        return this.createImageElement(photo,
                                    px(width),
                                    px(photo.height(width)),
-                                   px(config.spacing));
-  }
+                                       px(config.spacing), section);
+    }
 
   /**
    * Find the shortest column to add a photo to
@@ -269,29 +273,30 @@ class HorizontalRenderer extends Renderer {
     if (config.shuffle) {
       shuffle(photos);
     }
-    var sectionElem = this.createHeader(section);
+      var sectionElem = this.createHeader(section);
+      sectionElem.className = 'sectionElem'
 
-    while (photos.length > 0) {
-      var maxWidth = config.spacing * -1;
-      var rowPhotos = [];
+      while (photos.length > 0) {
+          var maxWidth = config.spacing * -1;
+          var rowPhotos = [];
 
-      while (true) {
-        var photo = photos.pop();
-        maxWidth += photo.width(config.maxHeight) + config.spacing;
-        rowPhotos.push(photo);
-        if (maxWidth - config.spacing > this._currentWidth) {
-          sectionElem.appendChild(this.createRow(config, section, rowPhotos));
-          break;
-        }
+          while (true) {
+              var photo = photos.pop();
+              maxWidth += photo.width(config.maxHeight) + config.spacing;
+              rowPhotos.push(photo);
+              if (maxWidth - config.spacing > this._currentWidth) {
+                  sectionElem.appendChild(this.createRow(config, section, rowPhotos));
+                  break;
+              }
 
-        if (photos.length === 0) {
-          sectionElem.appendChild(this.createRow(config, section, rowPhotos, true));
-          break;
-        }
+              if (photos.length === 0) {
+                  sectionElem.appendChild(this.createRow(config, section, rowPhotos, true));
+                  break;
+              }
+          }
       }
-    }
-
-    return sectionElem;
+      //$(sectionElem).colorbox({rel:'.group1', transition:"fade", maxHeight: "95%"}); 
+      return sectionElem;
   }
 
   /**
@@ -324,15 +329,17 @@ class HorizontalRenderer extends Renderer {
       var image = this.createImageElement(photo,
                                           px(photo.width(finalHeight)),
                                           px(finalHeight),
-                                          px(0));
+                                          px(0),
+                                          section);
 
-      if (i !== 0) {
-        image.style.marginLeft = px(config.spacing);
-      }
-
-      rowElem.appendChild(image);
+        if (i !== 0) {
+            image.style.marginLeft = px(config.spacing);
+        }
+        $(image).colorbox({rel: section, transition:"fade", maxHeight: "95%"});
+        rowElem.appendChild(image);
     }
-    return rowElem;
+          //$(rowElem).colorbox({rel:'group1', transition:"fade", maxHeight: "95%"});
+      return rowElem;
   }
 }
 
