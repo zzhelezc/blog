@@ -6,7 +6,8 @@
       "path": "./photos/People/9.jpg",
       "compressed_path": "./photos/People/9.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/9.placeholder.jpg"
+      "placeholder_path": "./photos/People/9.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -14,7 +15,8 @@
       "path": "./photos/People/8.jpg",
       "compressed_path": "./photos/People/8.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/8.placeholder.jpg"
+      "placeholder_path": "./photos/People/8.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -22,7 +24,8 @@
       "path": "./photos/People/7.jpg",
       "compressed_path": "./photos/People/7.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/7.placeholder.jpg"
+      "placeholder_path": "./photos/People/7.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -30,7 +33,8 @@
       "path": "./photos/People/6.jpg",
       "compressed_path": "./photos/People/6.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/6.placeholder.jpg"
+      "placeholder_path": "./photos/People/6.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -38,7 +42,8 @@
       "path": "./photos/People/5.jpg",
       "compressed_path": "./photos/People/5.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/5.placeholder.jpg"
+      "placeholder_path": "./photos/People/5.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -46,7 +51,8 @@
       "path": "./photos/People/4.jpg",
       "compressed_path": "./photos/People/4.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/4.placeholder.jpg"
+      "placeholder_path": "./photos/People/4.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -54,31 +60,35 @@
       "path": "./photos/People/3.jpg",
       "compressed_path": "./photos/People/3.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/3.placeholder.jpg"
+      "placeholder_path": "./photos/People/3.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
       "height": 1020,
-      "path": "/gallery/photos/People/2.jpg",
+      "path": "./photos/People/2.jpg",
       "compressed_path": "./photos/People/2.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/2.placeholder.jpg"
+      "placeholder_path": "./photos/People/2.placeholder.jpg",
+      "title": "Bristol, UK, 2023"
     },
     {
       "width": 680,
       "height": 1020,
-      "path": "/gallery/photos/People/1.jpg",
+      "path": "./photos/People/1.jpg",
       "compressed_path": "./photos/People/1.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/1.placeholder.jpg"
+      "placeholder_path": "./photos/People/1.placeholder.jpg",
+      "title": "Bristol, UK, 2023"
     },
     {
       "width": 680,
       "height": 1020,
-      "path": "/gallery/photos/People/0.jpg",
+      "path": "./photos/People/0.jpg",
       "compressed_path": "./photos/People/0.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People/0.placeholder.jpg"
+      "placeholder_path": "./photos/People/0.placeholder.jpg",
+      "title": "Bristol, UK, 2023"
     }
   ],
   "People Alone": [
@@ -88,7 +98,8 @@
       "path": "./photos/People Alone/22.jpg",
       "compressed_path": "./photos/People Alone/22.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/22.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/22.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -96,7 +107,8 @@
       "path": "./photos/People Alone/21.jpg",
       "compressed_path": "./photos/People Alone/21.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/21.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/21.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -104,7 +116,8 @@
       "path": "./photos/People Alone/20.jpg",
       "compressed_path": "./photos/People Alone/20.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/20.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/20.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -112,7 +125,8 @@
       "path": "./photos/People Alone/19.jpg",
       "compressed_path": "./photos/People Alone/19.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/19.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/19.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -120,15 +134,8 @@
       "path": "./photos/People Alone/18.jpg",
       "compressed_path": "./photos/People Alone/18.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/18.placeholder.jpg"
-    },
-    {
-      "width": 1360,
-      "height": 1020,
-      "path": "./photos/People Alone/17_aa.jpg",
-      "compressed_path": "./photos/People Alone/17_aa.min.jpg",
-      "compressed": false,
-      "placeholder_path": "./photos/People Alone/17_aa.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/18.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -136,7 +143,8 @@
       "path": "./photos/People Alone/17.jpg",
       "compressed_path": "./photos/People Alone/17.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/17.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/17.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -144,7 +152,8 @@
       "path": "./photos/People Alone/16.jpg",
       "compressed_path": "./photos/People Alone/16.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/16.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/16.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -152,7 +161,8 @@
       "path": "./photos/People Alone/15.jpg",
       "compressed_path": "./photos/People Alone/15.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/15.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/15.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1531,
@@ -160,7 +170,8 @@
       "path": "./photos/People Alone/14.jpg",
       "compressed_path": "./photos/People Alone/14.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/14.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/14.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -168,7 +179,8 @@
       "path": "./photos/People Alone/13.jpg",
       "compressed_path": "./photos/People Alone/13.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/13.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/13.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -176,7 +188,8 @@
       "path": "./photos/People Alone/12.jpg",
       "compressed_path": "./photos/People Alone/12.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/12.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/12.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -184,7 +197,8 @@
       "path": "./photos/People Alone/11.jpg",
       "compressed_path": "./photos/People Alone/11.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/11.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/11.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -192,7 +206,8 @@
       "path": "./photos/People Alone/10.jpg",
       "compressed_path": "./photos/People Alone/10.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/People Alone/10.placeholder.jpg"
+      "placeholder_path": "./photos/People Alone/10.placeholder.jpg",
+      "title": "Untitled"
     }
   ],
   "Places and Things": [
@@ -202,7 +217,8 @@
       "path": "./photos/Places and Things/43.jpg",
       "compressed_path": "./photos/Places and Things/43.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/43.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/43.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -210,7 +226,8 @@
       "path": "./photos/Places and Things/42.jpg",
       "compressed_path": "./photos/Places and Things/42.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/42.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/42.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -218,7 +235,8 @@
       "path": "./photos/Places and Things/41.jpg",
       "compressed_path": "./photos/Places and Things/41.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/41.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/41.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -226,7 +244,8 @@
       "path": "./photos/Places and Things/40.jpg",
       "compressed_path": "./photos/Places and Things/40.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/40.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/40.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -234,7 +253,8 @@
       "path": "./photos/Places and Things/39.jpg",
       "compressed_path": "./photos/Places and Things/39.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/39.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/39.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -242,7 +262,8 @@
       "path": "./photos/Places and Things/38.jpg",
       "compressed_path": "./photos/Places and Things/38.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/38.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/38.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -250,7 +271,8 @@
       "path": "./photos/Places and Things/37.jpg",
       "compressed_path": "./photos/Places and Things/37.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/37.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/37.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -258,7 +280,8 @@
       "path": "./photos/Places and Things/36.jpg",
       "compressed_path": "./photos/Places and Things/36.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/36.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/36.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -266,7 +289,8 @@
       "path": "./photos/Places and Things/35.jpg",
       "compressed_path": "./photos/Places and Things/35.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/35.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/35.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -274,7 +298,8 @@
       "path": "./photos/Places and Things/34.jpg",
       "compressed_path": "./photos/Places and Things/34.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/34.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/34.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -282,7 +307,8 @@
       "path": "./photos/Places and Things/33.jpg",
       "compressed_path": "./photos/Places and Things/33.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/33.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/33.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -290,7 +316,8 @@
       "path": "./photos/Places and Things/32.jpg",
       "compressed_path": "./photos/Places and Things/32.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/32.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/32.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -298,7 +325,8 @@
       "path": "./photos/Places and Things/31.jpg",
       "compressed_path": "./photos/Places and Things/31.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/31.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/31.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -306,7 +334,8 @@
       "path": "./photos/Places and Things/30.jpg",
       "compressed_path": "./photos/Places and Things/30.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/30.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/30.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -314,7 +343,8 @@
       "path": "./photos/Places and Things/29.jpg",
       "compressed_path": "./photos/Places and Things/29.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/29.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/29.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -322,7 +352,8 @@
       "path": "./photos/Places and Things/28.jpg",
       "compressed_path": "./photos/Places and Things/28.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/28.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/28.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -330,7 +361,8 @@
       "path": "./photos/Places and Things/27.jpg",
       "compressed_path": "./photos/Places and Things/27.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/27.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/27.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -338,7 +370,8 @@
       "path": "./photos/Places and Things/26.jpg",
       "compressed_path": "./photos/Places and Things/26.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/26.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/26.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 680,
@@ -346,7 +379,8 @@
       "path": "./photos/Places and Things/25.jpg",
       "compressed_path": "./photos/Places and Things/25.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/25.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/25.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -354,7 +388,8 @@
       "path": "./photos/Places and Things/24.jpg",
       "compressed_path": "./photos/Places and Things/24.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/24.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/24.placeholder.jpg",
+      "title": "Untitled"
     },
     {
       "width": 1530,
@@ -362,7 +397,8 @@
       "path": "./photos/Places and Things/23.jpg",
       "compressed_path": "./photos/Places and Things/23.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Places and Things/23.placeholder.jpg"
+      "placeholder_path": "./photos/Places and Things/23.placeholder.jpg",
+      "title": "Untitled"
     }
   ]
 }
