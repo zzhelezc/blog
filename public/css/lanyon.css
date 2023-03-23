@@ -39,6 +39,8 @@ html,
 body {
 }
 
+.align-center {text-align: center; margin: auto;}
+
 html {
     /*font-family: "PT Serif", Georgia, "Times New Roman", serif;*/
     font-family: "Alegreya", serif;

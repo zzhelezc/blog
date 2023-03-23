@@ -12,13 +12,22 @@ import re
 from collections import OrderedDict
 
 PATH = os.path.dirname(__file__) + '/../'
-RELATIVE_PATH = 'gallery/photos'
+RELATIVE_PATH = 'photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
 
 titles = {
     "./photos/People/0.jpg": "Bristol, UK, 2023",
     "./photos/People/1.jpg": "Bristol, UK, 2023",
-    "./photos/People/2.jpg": "Bristol, UK, 2023"
+    "./photos/People/2.jpg": "Bristol, UK, 2023",
+    "./photos/People/3.jpg": "Phuket, Thailand, 2022",
+    "./photos/People/4.jpg": "Thailand, 2022",
+    "./photos/People/5.jpg": "Sliven, Bulgaria, 2023",
+    "./photos/People/6.jpg": "Bristol, UK, 2023",
+    "./photos/People/7.jpg": "Bristol, UK, 2023",
+    "./photos/People/8.jpg": "Bristol, UK, 2023",
+    "./photos/People/9.jpg": "Bristol, UK, 2023",
+    
+    
 }
 
 # photos = OrderedDict({
@@ -113,7 +122,7 @@ def get_images(path):
 
 
 def write_config(config):
-    with open('gallery/config.json', 'w') as f:
+    with open('config.json', 'w') as f:
         f.write(json.dumps(config, indent=2, separators=(',', ': ')))
 
 

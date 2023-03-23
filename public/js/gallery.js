@@ -335,7 +335,9 @@ class HorizontalRenderer extends Renderer {
             if (i !== 0) {
                 image.style.marginLeft = px(config.spacing);
             }
-            $(image).colorbox({rel: section, transition:"none", maxHeight: "95%"});
+            $(image).colorbox({rel: section, transition:"none",
+                               maxHeight: "95%", maxWidth: "95%",
+                               opacity: 1});
             rowElem.appendChild(image);
         }
         //$(rowElem).colorbox({rel:'group1', transition:"fade", maxHeight: "95%"});

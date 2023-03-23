@@ -22,15 +22,15 @@ if [ -n "$(uname -a | grep Ubuntu)" -a -x "$(command -v mogrify)" ]; then
   # mogrify is available
   # low res version of image
     python3 $SCRIPT_PATH/tools/duplicate.py min
-    mogrify -resize 640x $SCRIPT_PATH/gallery/photos/**/*.min.jpeg &>/dev/null
+    mogrify -resize 640x $SCRIPT_PATH/photos/**/*.min.jpeg &>/dev/null
     mogrify -resize 640x $SCRIPT_PATH/gallery/photos/**/*.min.png &>/dev/null
     mogrify -resize 640x $SCRIPT_PATH/gallery/photos/**/*.min.jpg &>/dev/null
 
     # placeholder image for lazy loading
     python3 $SCRIPT_PATH/tools/duplicate.py placeholder
-    mogrify -resize 32x $SCRIPT_PATH/gallery/photos/**/*.placeholder.jpeg &>/dev/null
-    mogrify -resize 32x $SCRIPT_PATH/gallery/photos/**/*.placeholder.png &>/dev/null
-    mogrify -resize 32x $SCRIPT_PATH/gallery/photos/**/*.placeholder.jpg &>/dev/null
+    mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.jpeg &>/dev/null
+    mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.png &>/dev/null
+    mogrify -resize 32x $SCRIPT_PATH/photos/**/*.placeholder.jpg &>/dev/null
 fi  
 
 python3 $SCRIPT_PATH/tools/setup.py
