@@ -9,12 +9,12 @@ title: Featured Photos
     	<link rel="stylesheet" href="/public/css/font.css" />
 		<meta charset='utf-8'/>
 		<title>Colorbox Examples</title>
-		<link rel="stylesheet" href="/public/colorbox-master/example2/colorbox.css" />
+		<link rel="stylesheet" href="/public/css/colorbox.css" />
                 <script src="/public/js/jquery.js"></script>
-		<script src="/public/colorbox-master/jquery.colorbox.js"></script>
+		<script src="/public/js/jquery.colorbox-min.js"></script>
 		<script>
 		  $(document).ready(function(){
-                      $(".group2").colorbox({rel:'group2', transition:"fade", maxHeight: "95%",
+                      $(".group2").colorbox({rel:'group2', transition:"none", maxHeight: "95%",
                                              maxWidth: "95%",
                                              open: true, opacity: 0, overlayClose: true,
                                              onClosed:function(){ document.location.href = "https://wandering-nonsense.com"; }
