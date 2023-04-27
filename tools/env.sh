@@ -1,0 +1,1 @@
+export WEBSITE_ROOT=${PWD}
